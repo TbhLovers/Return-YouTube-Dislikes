@@ -16,8 +16,8 @@
 #define ExactLikeKey @"RYD-EXACT-LIKE-NUMBER"
 #define ExactDislikeKey @"RYD-EXACT-NUMBER"
 #define DidShowEnableVoteSubmissionAlertKey @"RYD-DID-SHOW-VOTE-SUBMISSION-ALERT"
-#define FETCHING @"⌛"
-#define FAILED @"❌"
+#define FETCHING @"Fetching"
+#define FAILED @"Failed"
 
 #define _LOC(b, x) [b localizedStringForKey:x value:nil table:nil]
 #define LOC(x) _LOC(tweakBundle, x)
